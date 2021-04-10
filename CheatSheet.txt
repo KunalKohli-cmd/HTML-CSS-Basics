@@ -1,0 +1,10 @@
+touch .gitignore
+git config --global user.name Kunal
+git config --global user.email Kunal@gmail.com
+git init
+git add .
+git commit -m "Initial Commit"
+git status (Just to see the status -- Not Mandatory--)
+tail <path to id_rsa.pub> #Add this key to your Github account
+git remot add origin <ssh url.git>
+git push origin master
