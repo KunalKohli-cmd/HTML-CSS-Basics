@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Cotton detail</h2>
+    <form action="backend.php">
+        <h4> Apply for Jobs</h4>
+        <div>
+            <img src="1.jpg" alt="art" height="200" width="150"><br>
+        </div>
+       
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" name="Name" id ="name">
+        </div>
+        <div>
+            <label for="role">Role :</label>
+            <input type="text" name="Role" id="role">
+        </div>
+        <div>
+            <label for="Email">Email :</label>
+            <input type="email" name="Email" id="Email">
+        </div>
+        <div>
+            DOB : <input type="date" name="DOB">
+        </div>
+        <div>
+            <label for="Eligible">Are You Eligible :</label>
+            <input type="checkbox" checked name="Eligibility" id="Eligible">
+        </div>
+        <div>
+            Gender : Male <input type="radio" name="Gender"> Female <input type ="radio" name="Gender">
+            Others <input type="radio" name ="Gender">
+        </div>
+        <div>
+            Bonus : <input type="number" name="Bonus">
+        </div>
+        <div>
+            Write About Yourself : <br><textarea name="MyText" cols="30" rows="5"></textarea>
+        </div>   
+        <div>
+            <label for=Car name="car"> Car :</label>
+            <select name="car" id="car">
+                <option value="alto">Alto</option>
+                <option value="800">Maruti 800</option>
+                <option value="sft" selected >Swift Desire</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" name="Submit">
+            <input type="reset" name="Reset">
+        </div>    
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #8583a7;
+        }
+        .container{
+            background-color  :rgb(208 200 224);
+            border: 3px solid rgb(1, 0, 3);
+            /* For equal padding from all sides  */
+            /* padding: 9px; */
+            /* for padding : y(top/bottom) x(left/right) */
+            /* padding: 100px 1px; */
+            /* for padding = top right bottom left */
+            padding: 10px 20px 30px 80px;
+            margin: 10px;
+            border-radius: 23px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3> This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rem a amet debitis tenetur magni impedit eos. Laudantium blanditiis cum minima culpa molestias.</p>
+    </div>
+    <div class="container">
+        <h3> This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rem a amet debitis tenetur magni impedit eos. Laudantium blanditiis cum minima culpa molestias.</p>
+    </div>
+    <div class="container">
+        <h3> This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rem a amet debitis tenetur magni impedit eos. Laudantium blanditiis cum minima culpa molestias.</p>
+    </div>
+</body>
+</html>

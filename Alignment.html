@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+
+            width: 900px;
+            border: 3px solid purple;
+            margin: auto;
+            background-color: rgb(221, 189, 161);
+        }
+
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 10px;
+            background-color: rgb(201, 184, 214);
+        }
+
+        #Fruits {
+            float: left;
+            width: 48%;
+        }
+
+        #Vegetable {
+            float: left;
+            width: 48%;
+        }
+
+        #Drinks {
+            /* float: right; */
+            clear: both;
+            width: 98%;
+            padding-left: 10px;
+            margin-left: 10px;
+
+        }
+
+        p,
+        h3 {
+            /* text-align: left; */
+            /* text-align: right; */
+            /* text-align: center; */
+            text-align: justify;
+
+        }
+
+        h1 {
+            padding-top: 20px;
+            margin: auto;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="Fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quibusdam nam
+                sint maiores? Vero modi quia ducimus reprehenderit ea aspernatur dolorum totam odit temporibus
+                accusantium, odio id qui quos nulla consequatur? Voluptate, quo sed! Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Perspiciatis nihil laborum impedit, inventore odit culpa cum voluptates
+                sed officia, ratione pariatur? Impedit unde, repellendus non sint voluptatum magnam commodi doloribus
+                voluptate consectetur alias officiis?</p>
+        </div>
+        <div id="Vegetable" class="item">
+            <h3>Vegetable</h3>
+            <p id="Vegpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quibusdam nam
+                sint maiores? Vero modi quia ducimus reprehenderit ea aspernatur dolorum totam odit temporibus
+                accusantium, odio id qui quos nulla consequatur? Voluptate, quo sed!</p>
+        </div>
+        <div id="Drinks" class="item">
+            <h3>Drinks</h3>
+            <p id="drinkspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quibusdam nam
+                sint maiores? Vero modi quia ducimus reprehenderit ea aspernatur dolorum totam odit temporibus
+                accusantium, odio id qui quos nulla consequatur? Voluptate, quo sed!</p>
+        </div>
+    </div>
+</body>
+
+</html>
